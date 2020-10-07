@@ -10,9 +10,9 @@ int main() {
     double d;
     long l;
 
-    cin>> i;
-    cout<< sizeof(i)<<endl;
-    
+    cin>> l;
+    cout<< sizeof(l)<<endl;
+
     system("pause");
     return 0;
 }
