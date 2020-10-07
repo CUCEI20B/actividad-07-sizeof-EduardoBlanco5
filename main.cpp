@@ -3,7 +3,16 @@
 using namespace std;
 
 int main() {
-    cout << "Hola Mundo!" << endl; // eliminar esta línea
+    int i;
+    char c;
+    short s;
+    float f;
+    double d;
+    long l;
 
+    cin>> i;
+    cout<< sizeof(i)<<endl;
+    
+    system("pause");
     return 0;
 }
